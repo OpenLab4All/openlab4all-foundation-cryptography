@@ -3,7 +3,7 @@
 **OpenLab4All.Foundation.Cryptography** is part of the `OpenLab4All.Foundation` libraries.  
 It delivers a set of secure and consistent cryptographic helpers for .NET applications, covering symmetric encryption, hashing, key derivation, and data encoding.
 
-## ✨ Features
+## Features
 - **CryptoBox** – high-level API for authenticated symmetric encryption (AES-CBC + HMAC-SHA256).
 - **AesCbc** – low-level AES-CBC encryption/decryption helper.
 - **Hash / Hmac** – SHA-256, SHA-512, and keyed HMAC operations.

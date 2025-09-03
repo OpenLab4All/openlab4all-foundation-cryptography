@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenLab4All.Foundation.Cryptography", "OpenLab4All.Foundation.Cryptography\OpenLab4All.Foundation.Cryptography.csproj", "{5DE89CA4-F55A-41F3-83A6-B659058BDD1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{ECAA313E-0A9B-46C4-B3B1-63880B0E20AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DE89CA4-F55A-41F3-83A6-B659058BDD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE89CA4-F55A-41F3-83A6-B659058BDD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE89CA4-F55A-41F3-83A6-B659058BDD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE89CA4-F55A-41F3-83A6-B659058BDD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAA313E-0A9B-46C4-B3B1-63880B0E20AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAA313E-0A9B-46C4-B3B1-63880B0E20AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAA313E-0A9B-46C4-B3B1-63880B0E20AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAA313E-0A9B-46C4-B3B1-63880B0E20AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D76E6A6D-E6E7-4D32-9956-BB8570407F9B}
+	EndGlobalSection
+EndGlobal

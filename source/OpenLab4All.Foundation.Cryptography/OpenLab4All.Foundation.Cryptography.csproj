@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+    <PackageId>$(AssemblyName)</PackageId>
+    <Title>$(AssemblyName)</Title>
+    <Authors>OpenLab4All</Authors>
+    <Company>OpenLab4All</Company>
+    <VersionPrefix>1.$([System.DateTime]::Now.ToString("yy.MM.dd"))</VersionPrefix>
+    <Copyright>$(Authors) © $([System.DateTime]::Now.ToString("yyyy"))</Copyright>
+    <Description>Provides cryptographic utilities for the OpenLab4All.Foundation libraries.</Description>
+
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <RepositoryUrl>https://github.com/OpenLab4All/openlab4all-foundation</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+  
+</Project>

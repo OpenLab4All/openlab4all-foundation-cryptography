@@ -1,0 +1,117 @@
+# ========================================
+# Archivos compilados
+# ========================================
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.resources
+*.pyc
+*.pl
+*.pdb
+*.exe.config
+!thirdparty/**
+!thirdparty/*.dll
+!thirdparty/*.exe
+!thirdparty/*.pdb
+!thirdparty/*.xml
+!thirdparty/*.so
+
+# ========================================
+# Archivos comprimidos y empaquetados
+# ========================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ========================================
+# Archivos generados por el sistema operativo
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Archivos y carpetas de Visual Studio
+# ========================================
+.vs/
+*.suo
+*.user
+*.p53
+*.oiv
+*.[Oo]bj
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+*.log
+
+# ========================================
+# Carpetas comunes de build y dependencias
+# ========================================
+bin/
+obj/
+packages/
+dist/
+node_modules/
+[Ll]ibrerias/
+*.mkey
+*.kvlist
+*.license
+
+# ========================================
+# Archivos temporales o de respaldo
+# ========================================
+*.tmp
+*.temp
+*.old
+*~
+*.swp
+*.swo
+*.swn
+*.orig
+
+# ========================================
+# Otras IDEs
+# ========================================
+.idea/
+*.iml
+*.vscode/
+*.code-workspace
+nbproject/private/
+.project
+.classpath
+.settings/
+*.userprefs
+.AppleDouble
+.LSOverride
+
+# ========================================
+# Project
+# ========================================
